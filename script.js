@@ -53,6 +53,7 @@ function prepareQuestions() {
 }
 
 function evaluate(evt) {
+  if (evt.target.className === "myAnswer") return;
   if (evt.target.score) {
     evt.target.className = "right";
     playerData.goodAnswers += 1; // increase good score

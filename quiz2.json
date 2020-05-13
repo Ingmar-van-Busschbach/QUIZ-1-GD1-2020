@@ -1,55 +1,59 @@
 {
-    "quizID": "Corona",
+    "quizID": "(S)Tonks",
     "quizMetaData":
     {
-        "title": "Corona Virus Knowledge",
-        "imageURI": "https://images.unsplash.com/photo-1583324113626-70df0f4deaab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+        "title": "How well do you know your (s)Tonks?",
+        "imageURI": "https://i.redd.it/xd0fil3wb8i31.jpg"
 
     },
     "quizContent":
-    [ 
-        {   "question": "How long does the covid-19 survive outside the body??",
+    [
+        {   "question": "From what nation is the tigor tonk",
             "answers": [{
-                    "answer": "A week in the air and on surfaces",
-                    "feedback": false
-                },
-                {
-                    "answer": "Several hours to days",
+                    "answer": "Schnitzel land (Germany)",
                     "feedback": true
                 },
                 {
-                    "answer": "Up to two and a half weeks",
+                    "answer": "Baguette Bonanza (France)",
+                    "feedback": false
+                },
+                {
+                    "answer": "Spaghet Kingdom (Italy)",
                     "feedback": false
                 }
             ]
         },
-        {   "question": "What’s more important for preventing infection?",
+        {   "question": "What was the chonkiest tonk ever built?",
             "answers": [{
-                    "answer": "Frequent hand-washing",
+                    "answer": "P1000 Ratte (P1000 Rat)",
+                    "feedback": false
+                },
+                {
+                    "answer": "Maus (Mouse)",
                     "feedback": true
                 },
                 {
-                    "answer": "Wearing a face mask",
+                    "answer": "M1 Abrams",
                     "feedback": false
                 }
-            ]
+              ]
         },
-        {   "question": "Who’s at highest risk of developing severe Covid-19 disease?",
+        {   "question": "What's the longest recorded tonk jump?",
             "answers": [{
-                    "answer": "Children",
+                    "answer": "1 meter",
                     "feedback": false
                 },
                 {
-                    "answer": "People over 60 years of age",
+                    "answer": "5 meters",
+                    "feedback": false
+                },
+                {
+                    "answer": "10 meters",
+                    "feedback": false
+                },
+                {
+                    "answer": "50 meters",
                     "feedback": true
-                },
-                {
-                    "answer": "Pregnant women",
-                    "feedback": false
-                },
-                {
-                    "answer": "Those with existing medical conditions",
-                    "feedback": false
                 }
             ]
         }

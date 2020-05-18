@@ -69,6 +69,8 @@ function evaluate(evt) {
 function finishQuiz() {
   questionBox.style.display = "none";
   resultBox.style.display = "block";
+  quizWrapper.style.background = "silver";
+  resultBox.innerHTML = "<h1>Your Results: <br>correct answers: " +playerData.goodAnswers + "<br>wrong answers: " + playerData.wrongAnswers + "</h1>"
 }
 
 init(); // start it

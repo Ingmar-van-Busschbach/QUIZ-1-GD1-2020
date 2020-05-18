@@ -5,6 +5,7 @@ const quizWrapper = document.getElementById('quizWrapper');
 const questionBox = document.getElementById('questionBox');
 const resultBox = document.getElementById('resultBox');
 
+const quizTitle = document.getElementById('quizTitle');
 let quizJsonFile = "quiz2.json"; // het JSON bestand met de quizz
 
 let counter = 0;
@@ -29,6 +30,7 @@ function initQuiz(){
   playerData.wrongAnswers = 0;
   playerName = ""; // toekomstige uitbreiding naam speler opvragen
   resultBox.style.display = "none"; // verberg de resultbox
+  quizTitle.innerHTML=quiz.quizMetaData.title;
   prepareQuestions(); // start de quiz
 }
 
@@ -69,6 +71,7 @@ function evaluate(evt) {
 function finishQuiz() {
   questionBox.style.display = "none";
   resultBox.style.display = "block";
+  quizWrapper.style.backgroundImage = "";
   quizWrapper.style.background = "silver";
   resultBox.innerHTML = "<h1>Your Results: <br>correct answers: " +playerData.goodAnswers + "<br>wrong answers: " + playerData.wrongAnswers + "</h1>"
 }
